@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+body {
+  background-color: #0096E9;
+  font-family: 'Indie Flower', cursive;
+  font-size: 16px;
+
+
+
+}
+.second-input, .not-responsive, .countiing, .dropdown-color, .change-box-color, .duplicate-box, .move-box, .done-button {
+  background-color: #FFC43D;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 10px;
+  margin: 5px 20px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+  font-size: 16px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.placeholder, .the-focused-one, .writes-the-same-thing {
+  font-family: 'Indie Flower', cursive;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.box, .box-twoo {
+  border: 3px solid #006AB2;
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 16px;
+  padding: 30px;
+}
+.dropdown {
+  position: relative; /* Adjust as needed */
+}
+.color-picker-input {
+  margin-top: 10px; /* Space above color picker */
+  /* Add additional styles as necessary */
+}
+
+.color-boxes {
+  display: flex; 
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.color-box {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px; 
+  border: 1px solid #006AB2;
+}
+.third-picture {
+  position: relative; 
+}
+.moving-box {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  margin-right: 5px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #006AB2;
+}
+.third-picture .move-box {
+  z-index: 1; 
+}
